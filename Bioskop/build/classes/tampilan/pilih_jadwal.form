@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btBack" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btOrder" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jScrollPane1" min="-2" pref="222" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cbSeat" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="396" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="255" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cbSeat" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btOrder" min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace pref="68" max="32767" attributes="0"/>
+              <Component id="btBack" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="JListJadwal">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TextAreaDesc">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="cbSeat">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="240">
+            <StringItem index="0" value="1A"/>
+            <StringItem index="1" value="2A"/>
+            <StringItem index="2" value="3A"/>
+            <StringItem index="3" value="4A"/>
+            <StringItem index="4" value="5A"/>
+            <StringItem index="5" value="6A"/>
+            <StringItem index="6" value="7A"/>
+            <StringItem index="7" value="8A"/>
+            <StringItem index="8" value="9A"/>
+            <StringItem index="9" value="10A"/>
+            <StringItem index="10" value="11A"/>
+            <StringItem index="11" value="12A"/>
+            <StringItem index="12" value="13A"/>
+            <StringItem index="13" value="14A"/>
+            <StringItem index="14" value="15A"/>
+            <StringItem index="15" value="16A"/>
+            <StringItem index="16" value="17A"/>
+            <StringItem index="17" value="18A"/>
+            <StringItem index="18" value="19A"/>
+            <StringItem index="19" value="20A"/>
+            <StringItem index="20" value="1B"/>
+            <StringItem index="21" value="2B"/>
+            <StringItem index="22" value="3B"/>
+            <StringItem index="23" value="4B"/>
+            <StringItem index="24" value="5B"/>
+            <StringItem index="25" value="6B"/>
+            <StringItem index="26" value="7B"/>
+            <StringItem index="27" value="8B"/>
+            <StringItem index="28" value="9B"/>
+            <StringItem index="29" value="10B"/>
+            <StringItem index="30" value="11B"/>
+            <StringItem index="31" value="12B"/>
+            <StringItem index="32" value="13B"/>
+            <StringItem index="33" value="14B"/>
+            <StringItem index="34" value="15B"/>
+            <StringItem index="35" value="16B"/>
+            <StringItem index="36" value="17B"/>
+            <StringItem index="37" value="18B"/>
+            <StringItem index="38" value="19B"/>
+            <StringItem index="39" value="20B"/>
+            <StringItem index="40" value="1C"/>
+            <StringItem index="41" value="2C"/>
+            <StringItem index="42" value="3C"/>
+            <StringItem index="43" value="4C"/>
+            <StringItem index="44" value="5C"/>
+            <StringItem index="45" value="6C"/>
+            <StringItem index="46" value="7C"/>
+            <StringItem index="47" value="8C"/>
+            <StringItem index="48" value="9C"/>
+            <StringItem index="49" value="10C"/>
+            <StringItem index="50" value="11C"/>
+            <StringItem index="51" value="12C"/>
+            <StringItem index="52" value="13C"/>
+            <StringItem index="53" value="14C"/>
+            <StringItem index="54" value="15C"/>
+            <StringItem index="55" value="16C"/>
+            <StringItem index="56" value="17C"/>
+            <StringItem index="57" value="18C"/>
+            <StringItem index="58" value="19C"/>
+            <StringItem index="59" value="20C"/>
+            <StringItem index="60" value="1D"/>
+            <StringItem index="61" value="2D"/>
+            <StringItem index="62" value="3D"/>
+            <StringItem index="63" value="4D"/>
+            <StringItem index="64" value="5D"/>
+            <StringItem index="65" value="6D"/>
+            <StringItem index="66" value="7D"/>
+            <StringItem index="67" value="8D"/>
+            <StringItem index="68" value="9D"/>
+            <StringItem index="69" value="10D"/>
+            <StringItem index="70" value="11D"/>
+            <StringItem index="71" value="12D"/>
+            <StringItem index="72" value="13D"/>
+            <StringItem index="73" value="14D"/>
+            <StringItem index="74" value="15D"/>
+            <StringItem index="75" value="16D"/>
+            <StringItem index="76" value="17D"/>
+            <StringItem index="77" value="18D"/>
+            <StringItem index="78" value="19D"/>
+            <StringItem index="79" value="20D"/>
+            <StringItem index="80" value="1E"/>
+            <StringItem index="81" value="2E"/>
+            <StringItem index="82" value="3E"/>
+            <StringItem index="83" value="4E"/>
+            <StringItem index="84" value="5E"/>
+            <StringItem index="85" value="6E"/>
+            <StringItem index="86" value="7E"/>
+            <StringItem index="87" value="8E"/>
+            <StringItem index="88" value="9E"/>
+            <StringItem index="89" value="10E"/>
+            <StringItem index="90" value="11E"/>
+            <StringItem index="91" value="12E"/>
+            <StringItem index="92" value="13E"/>
+            <StringItem index="93" value="14E"/>
+            <StringItem index="94" value="15E"/>
+            <StringItem index="95" value="16E"/>
+            <StringItem index="96" value="17E"/>
+            <StringItem index="97" value="18E"/>
+            <StringItem index="98" value="19E"/>
+            <StringItem index="99" value="20E"/>
+            <StringItem index="100" value="1F"/>
+            <StringItem index="101" value="2F"/>
+            <StringItem index="102" value="3F"/>
+            <StringItem index="103" value="4F"/>
+            <StringItem index="104" value="5F"/>
+            <StringItem index="105" value="6F"/>
+            <StringItem index="106" value="7F"/>
+            <StringItem index="107" value="8F"/>
+            <StringItem index="108" value="9F"/>
+            <StringItem index="109" value="10F"/>
+            <StringItem index="110" value="11F"/>
+            <StringItem index="111" value="12F"/>
+            <StringItem index="112" value="13F"/>
+            <StringItem index="113" value="14F"/>
+            <StringItem index="114" value="15F"/>
+            <StringItem index="115" value="16F"/>
+            <StringItem index="116" value="17F"/>
+            <StringItem index="117" value="18F"/>
+            <StringItem index="118" value="19F"/>
+            <StringItem index="119" value="20F"/>
+            <StringItem index="120" value="1G"/>
+            <StringItem index="121" value="2G"/>
+            <StringItem index="122" value="3G"/>
+            <StringItem index="123" value="4G"/>
+            <StringItem index="124" value="5G"/>
+            <StringItem index="125" value="6G"/>
+            <StringItem index="126" value="7G"/>
+            <StringItem index="127" value="8G"/>
+            <StringItem index="128" value="9G"/>
+            <StringItem index="129" value="10G"/>
+            <StringItem index="130" value="11G"/>
+            <StringItem index="131" value="12G"/>
+            <StringItem index="132" value="13G"/>
+            <StringItem index="133" value="14G"/>
+            <StringItem index="134" value="15G"/>
+            <StringItem index="135" value="16G"/>
+            <StringItem index="136" value="17G"/>
+            <StringItem index="137" value="18G"/>
+            <StringItem index="138" value="19G"/>
+            <StringItem index="139" value="20G"/>
+            <StringItem index="140" value="1H"/>
+            <StringItem index="141" value="2H"/>
+            <StringItem index="142" value="3H"/>
+            <StringItem index="143" value="4H"/>
+            <StringItem index="144" value="5H"/>
+            <StringItem index="145" value="6H"/>
+            <StringItem index="146" value="7H"/>
+            <StringItem index="147" value="8H"/>
+            <StringItem index="148" value="9H"/>
+            <StringItem index="149" value="10H"/>
+            <StringItem index="150" value="11H"/>
+            <StringItem index="151" value="12H"/>
+            <StringItem index="152" value="13H"/>
+            <StringItem index="153" value="14H"/>
+            <StringItem index="154" value="15H"/>
+            <StringItem index="155" value="16H"/>
+            <StringItem index="156" value="17H"/>
+            <StringItem index="157" value="18H"/>
+            <StringItem index="158" value="19H"/>
+            <StringItem index="159" value="20H"/>
+            <StringItem index="160" value="1J"/>
+            <StringItem index="161" value="2J"/>
+            <StringItem index="162" value="3J"/>
+            <StringItem index="163" value="4J"/>
+            <StringItem index="164" value="5J"/>
+            <StringItem index="165" value="6J"/>
+            <StringItem index="166" value="7J"/>
+            <StringItem index="167" value="8J"/>
+            <StringItem index="168" value="9J"/>
+            <StringItem index="169" value="10J"/>
+            <StringItem index="170" value="11J"/>
+            <StringItem index="171" value="12J"/>
+            <StringItem index="172" value="13J"/>
+            <StringItem index="173" value="14J"/>
+            <StringItem index="174" value="15J"/>
+            <StringItem index="175" value="16J"/>
+            <StringItem index="176" value="17J"/>
+            <StringItem index="177" value="18J"/>
+            <StringItem index="178" value="19J"/>
+            <StringItem index="179" value="20J"/>
+            <StringItem index="180" value="1K"/>
+            <StringItem index="181" value="2K"/>
+            <StringItem index="182" value="3K"/>
+            <StringItem index="183" value="4K"/>
+            <StringItem index="184" value="5K"/>
+            <StringItem index="185" value="6K"/>
+            <StringItem index="186" value="7K"/>
+            <StringItem index="187" value="8K"/>
+            <StringItem index="188" value="9K"/>
+            <StringItem index="189" value="10K"/>
+            <StringItem index="190" value="11K"/>
+            <StringItem index="191" value="12K"/>
+            <StringItem index="192" value="13K"/>
+            <StringItem index="193" value="14K"/>
+            <StringItem index="194" value="15K"/>
+            <StringItem index="195" value="16K"/>
+            <StringItem index="196" value="17K"/>
+            <StringItem index="197" value="18K"/>
+            <StringItem index="198" value="19K"/>
+            <StringItem index="199" value="20K"/>
+            <StringItem index="200" value="1L"/>
+            <StringItem index="201" value="2L"/>
+            <StringItem index="202" value="3L"/>
+            <StringItem index="203" value="4L"/>
+            <StringItem index="204" value="5L"/>
+            <StringItem index="205" value="6L"/>
+            <StringItem index="206" value="7L"/>
+            <StringItem index="207" value="8L"/>
+            <StringItem index="208" value="9L"/>
+            <StringItem index="209" value="10L"/>
+            <StringItem index="210" value="11L"/>
+            <StringItem index="211" value="12L"/>
+            <StringItem index="212" value="13L"/>
+            <StringItem index="213" value="14L"/>
+            <StringItem index="214" value="15L"/>
+            <StringItem index="215" value="16L"/>
+            <StringItem index="216" value="17L"/>
+            <StringItem index="217" value="18L"/>
+            <StringItem index="218" value="19L"/>
+            <StringItem index="219" value="20L"/>
+            <StringItem index="220" value="1M"/>
+            <StringItem index="221" value="2M"/>
+            <StringItem index="222" value="3M"/>
+            <StringItem index="223" value="4M"/>
+            <StringItem index="224" value="5M"/>
+            <StringItem index="225" value="6M"/>
+            <StringItem index="226" value="7M"/>
+            <StringItem index="227" value="8M"/>
+            <StringItem index="228" value="9M"/>
+            <StringItem index="229" value="10M"/>
+            <StringItem index="230" value="11M"/>
+            <StringItem index="231" value="12M"/>
+            <StringItem index="232" value="13M"/>
+            <StringItem index="233" value="14M"/>
+            <StringItem index="234" value="15M"/>
+            <StringItem index="235" value="16M"/>
+            <StringItem index="236" value="17M"/>
+            <StringItem index="237" value="18M"/>
+            <StringItem index="238" value="19M"/>
+            <StringItem index="239" value="20M"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pilih Seat"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btOrder">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Order"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
